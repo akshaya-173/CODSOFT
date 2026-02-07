@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background: #1ea7d7;
+    padding: 20px;
+    border-radius: 20px;
+    width: 260px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    font-size: 28px;
+    text-align: right;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #0b5fa5;
+    color: white;
+    cursor: pointer;
+}
+
+.operator {
+    background: #063a65;
+}
+
+.equal {
+    background: #063a65;
+}
+.back {
+    background: #f0ad4e;
+    color: black;
+}
+.Multiply{
+    background-color: #063a65;
+}
